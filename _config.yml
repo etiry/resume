@@ -12,7 +12,8 @@ author: Emily Tiry
 
 # edit this section with your information
 # for a normal use at the base of the server change it to "/"
-baseurl: /resume/
+baseurl: http://www.emilytiry.com
+url: /resume/
 title: Emily Tiry's Resume
 name: Emily Tiry
 email: emilytiry@gmail.com
@@ -32,3 +33,6 @@ google_analytics: UA-108098167-1
 
 # needed for travis-ci build
 exclude: [vendor]
+
+plugins:
+  - jekyll-seo-tag
