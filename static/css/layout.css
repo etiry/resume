@@ -21,6 +21,7 @@ a {
 
 a:visited {
     text-decoration: none;
+    color: #27A822;
 }
 
 a:hover, a:focus {
